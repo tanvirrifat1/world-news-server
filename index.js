@@ -40,3 +40,4 @@ app.get('/news/:id', (req, res) => {
 app.listen(port, () => {
     console.log('World news Server running on port', port)
 })
+module.exports = app;
